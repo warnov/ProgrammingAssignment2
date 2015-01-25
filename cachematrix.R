@@ -11,6 +11,10 @@
 
 ##This functions assume the work with inversible squared matrices.
 
+##Using sample:
+##      > m1 <- makeCacheMatrix(mat)
+##      > cacheSolve(m1)
+
 ## This function creates a special "Cache matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   #We Will Storage the value of the inverse in this variable
