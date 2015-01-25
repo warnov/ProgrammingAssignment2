@@ -14,16 +14,18 @@
 ##Using sample:
 ##==============================================
 
-##  		> mat <- matrix(3:6,2)
-##            [,1]  [,2]
-##      [1,]    3    5
-##      [2,]    4    6
+##    	> mat <- matrix(3:6,2)
+##        		    [,1]  	[,2]
+##      	[1,]    3    	5
+##      	[2,]    4    	6
 ##			> cachingMat <- makeCacheMatrix(mat)
 ##			> cacheSolve(cachingMat)
 ##					  [,1] 	  [,2]
 ##			[1,]   -3  		2.5
 ##			[2,]    2 		-1.5
-##      Let's try again (now the value should be retrieved from cache):
+##
+##	Let's try again (now the value should be retrieved from cache):
+##
 ##			> cacheSolve(cachingMat)
 ##			getting cached data       ---> Observe we are getting the data from cache
 ##					  [,1]  	[,2]
